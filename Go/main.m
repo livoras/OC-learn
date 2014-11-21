@@ -7,11 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Baby.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        Person *jerry = [[Person alloc] initWithName:@"Lucy" forWhom:@"Jerry"];
+        NSLog([jerry sayYouName:@"FUCKYOU"]);
+        NSLog(jerry.privateStr);
+        [jerry sayHi];
+        
+        Baby *baby = [[Baby alloc] initWithName:@"Kathy" forWhom:@"Tomy"];
+        NSLog([baby sayComputerName]);
+        [baby sayHi];
+        NSLog(baby.computer.name);
     }
     return 0;
 }
