@@ -34,6 +34,11 @@ static int count = 0;
 }
 
 
+- (void) fuckyou:(NSString *)name {
+    NSLog(@"fuckyou %@", name);
+}
+
+
 // 变量前面的描述是函数名的一部分，组成整个函数的名字！可读性杠杠的！
 // 就是一串字符串里面如果塞了冒号，冒号后面就是跟着参数！
 - (Person *)initWithName:(NSString *)name forWhom:(NSString *)who {

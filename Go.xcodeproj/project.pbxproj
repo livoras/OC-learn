@@ -11,6 +11,7 @@
 		726421641A1DEA9F00729D1F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 726421631A1DEA9F00729D1F /* Person.m */; };
 		726421681A1E2C5700729D1F /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 726421671A1E2C5700729D1F /* Computer.m */; };
 		7264216B1A1EE20800729D1F /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = 7264216A1A1EE20800729D1F /* Baby.m */; };
+		72D3FFC71A2320B200EA4AA2 /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D3FFC61A2320B200EA4AA2 /* Foo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		726421671A1E2C5700729D1F /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
 		726421691A1EE20800729D1F /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
 		7264216A1A1EE20800729D1F /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		72D3FFC51A2320B200EA4AA2 /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		72D3FFC61A2320B200EA4AA2 /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				726421671A1E2C5700729D1F /* Computer.m */,
 				726421691A1EE20800729D1F /* Baby.h */,
 				7264216A1A1EE20800729D1F /* Baby.m */,
+				72D3FFC51A2320B200EA4AA2 /* Foo.h */,
+				72D3FFC61A2320B200EA4AA2 /* Foo.m */,
 			);
 			path = Go;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				726421641A1DEA9F00729D1F /* Person.m in Sources */,
 				7264215D1A1DE90D00729D1F /* main.m in Sources */,
 				7264216B1A1EE20800729D1F /* Baby.m in Sources */,
+				72D3FFC71A2320B200EA4AA2 /* Foo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

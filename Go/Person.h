@@ -12,6 +12,7 @@
 
 - (NSString *)sayYouName:(NSString *)greeting;
 - (Person *)initWithName:(NSString *)name forWhom:(NSString *)who;
+- (void) fuckyou:(NSString *)name;
 - (void) sayHi;
 
 // 所有property都是局部变量的getter和setter的组合！
